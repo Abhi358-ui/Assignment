@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>simple webpgage</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .parent{
+            width: 100vw;
+            height: 100vh;
+        }
+        .head1{
+            width: 100%;
+            height: 20px;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        a{
+            text-decoration: none;
+            color: green;
+            padding-inline: 20px;
+        }
+
+        .right h2{
+            color: green;
+        }
+
+        span{
+            color: greenyellow;
+        }
+
+        .head2{
+            background-color: green;
+            padding: 25px;
+            color: white;
+        }
+
+        h1{
+            padding-left: 210px;
+        }
+
+        .sec1{
+            width: 100%;
+            display: flex;
+        }
+
+        .left-sec{
+            width: 40%;
+            padding: 30px;
+            padding-inline: 190px;
+            font-size: 15px;
+
+            h3{
+                color: green;
+                padding: 10px;
+            }
+
+            li{
+                list-style-type: none;
+                line-height: 40px;
+            }
+        }
+
+        .rig-sec{
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-between; */
+            gap: 13px;
+            line-height: 25px;
+            font-size: 15px;
+
+            h3{
+                display: inline-block;
+                /* background-color: grey; */
+            }
+
+            p{
+                color: grey;
+            }
+            .gre{
+                color: green;
+            }
+        }
+
+        .sec2{
+            background-color: #E7EFC7;
+            width: 100%;
+            height: 300px;
+            display: flex;
+            color: green;
+            justify-content: center;
+            align-items: center;
+            line-height: 20px;
+
+        }
+
+        .item{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+            padding: 20px;
+            font-size: 13px;
+
+        }
+
+
+        footer{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            span{
+                color: green;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+    <div class="parent">
+
+        <div class="head1">
+           <div class="right">
+             <h2>Cool<span>Logo</span></h2>
+           </div>
+
+           <div class="left">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">FAQ</a>
+            <a href="#">Help</a>
+           </div>
+        </div>
+
+        <div class="head2">
+            <h1>Heading</h1>
+
+        </div>
+
+
+        <div class="sec1">
+            <div class="left-sec">
+                <h3>Left heading</h3>
+
+                <ul>
+                    <li><a href="">Link1</a></li>
+                    <li><a href="">Link2</a></li>
+                    <li><a href="">Link3</a></li>
+                    <li><a href="">Link4</a></li>
+                    <li><a href="">Link5</a></li>
+                </ul>
+            </div>
+
+            <div class="rig-sec">
+                <h3 class="">View Template Source Code</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error iste adipisci voluptatibus nesciunt dolores ratione nobis in excepturi! Blanditiis quos laboriosam iusto, nihil ducimus repudiandae officiis possimus quisquam ex rem vel maiores reprehenderit nesciunt. Nostrum illum dolore error eligendi fugiat in voluptatem, vitae ipsam natus officia blanditiis praesentium suscipit! Blanditiis?</p>
+
+                <h3 class="gre">Headimh</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum facere maxime laborum iste hic aspernatur ipsam quidem qui quia nisi!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod saepe impedit omnis culpa repudiandae accusamus itaque quibusdam autem ullam.</p>
+            </div>
+        </div>
+
+
+        <div class="sec2">
+
+            <div class="item">
+
+                <h3>Heading</h3>
+
+                <p>Lorem ipsum dolor sit.</p>
+
+                <h3>Heading</h3>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore non odio amet sloribus inventore, et sed officiis explicabo esse nobis culpa placeat dolorem!</p>
+            </div>
+
+            <div class="item">
+                <h3>Heading</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid placeat, cupiditate nihil expedita vel perferendis.</p>
+
+                <h3>Heading</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptates est saep enim beatae tenetur, ab quo similique officiis eligendi dolore. Ipsam inventore aliquam nobis expedita.</p>
+            </div>
+
+
+
+            <div class="item">
+
+                <h3>Heading</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nemo veritatis aliquam eaque, est eveniet voluptate, suscipit laborum ea esse dolor. Neque fuga sint maiores.</p>
+            </div>
+
+
+        </div>
+
+
+        <footer>
+            <p>&copy; Cpoyright <span>Your Site | Term of Use | Privacy Policy</span></p>
+        </footer>
+        
+
+    </div>
+    
+</body>
+</html>
