@@ -6,18 +6,19 @@ function charFrequency(str){
 
     let arr = str.split('');
     let obj={}
-    let k=0;
     
     for(let i of arr)
     {
-        if(!obj[`${i}`]){
-            obj[`${i}`]=k
+        if(obj.hasOwnProperty(i)){
+            obj[i]++
         }
-
+        else{
+            obj[i]=1
+        }
         
     }
 
     return obj;
 }
 
-console.log(charFrequency("aabb"));
+console.log(charFrequency("aabbccc"));

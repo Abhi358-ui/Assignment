@@ -6,25 +6,17 @@
 
 function groupByType(arr){
 
-    let obj={
-        number:[],
-        string:[],
-        boolean:[]
-    }
+    let obj={}
 
     for(let i of arr)
     {
-        if(typeof i == 'string')
-        {
-            obj.string.push(i)
-        }
-        else if(typeof i == 'number')
-        {
-            obj.number.push(i)
-        }
-        else{
-            obj.boolean.push(i)
-        }
+       if(obj.hasOwnProperty(typeof i))
+       {
+            obj[typeof i].push(i);
+       }
+       else{
+        obj[typeof i]=[i]
+       }
 
     }
     
