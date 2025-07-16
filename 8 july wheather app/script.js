@@ -3,7 +3,7 @@
 let searchCity = document.getElementById('city');
 let sbtn = document.getElementById('ser')
 
-// let down_cp = document.getElementById('downn');
+let down_cp = document.getElementById('downn');
 // let old_code = down_cp.innerHTML;
 
 // data manipulation
@@ -14,7 +14,7 @@ let humidity = document.getElementById('hum');
 let wind = document.getElementById('wind');
 let icon = document.getElementById('icon');
 
-
+    
 
 
 
